@@ -20,14 +20,14 @@ body {
 	width: 100%;
 	height: 100%;
 /*masukan tempat foto disimpan*/
-	background-image: url(bghome.jpg);
+	background-image: url(bghome.png);
 /*Agar bg foto responsif berada di tengah*/
 	background-size: cover;
 	background-position: center;
 /*untuk mengatur foto berada di belakang, jika tidak dikasih, foto akan tampil didepan semuanya*/
 	z-index: -1; 
 /*menambahkan filter pada foto*/
-	filter: grayscale(50%); 
+/*	filter: grayscale(50%); */
 }
 
 .hero {
@@ -49,7 +49,8 @@ body {
 
 .hero h4 {
 	font-size: 1.6rem;
-	margin-top: 5rem;
+	margin-top: 50px;
+	margin-bottom: 2rem;
 }
 
 .hero p {
@@ -113,7 +114,7 @@ body {
 .gifts h2 {
 	color: var(--pink);
 	font-family: 'Sacramento';
-	font-size: 2rem;
+	font-size: 2.5rem;
 	font-weight: bold;
 }
 
@@ -129,12 +130,12 @@ body {
 
 .home li {
 	background-color: transparent;
-	font-size: 1.1rem;
+	font-size: 1.6rem;
 	color: #666;
 }
 
 .home p {
-	font-size: 1.1rem;
+	font-size: 1.6rem;
 	color: #666;
 }
 
@@ -150,7 +151,7 @@ body {
 
 .home .couple h3 {
 	font-family: 'Lobster';
-	font-size: 2.4;
+	font-size: 2rem;
 	color: var(--pink);
 }
 
@@ -178,7 +179,7 @@ body {
 */
 
 .info .alamat {
-	font-size: 1.1rem;
+	font-size: 1.6rem;
 }
 
 .info .deskripsi {
@@ -233,7 +234,7 @@ body {
 .gallery p,
 .rsvp p,
 .gifts p {
-	font-size: 1rem;
+	font-size: 1.6rem;
 	font-weight: 300;
 }
 
@@ -355,7 +356,8 @@ body {
 }
 
 .rsvp h2 {
-	font-size: 4.5rem;
+	margin-top: 50px;
+	font-size: 4rem;
 }
 
 .rsvp p {
