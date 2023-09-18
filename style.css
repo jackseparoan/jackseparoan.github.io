@@ -1,5 +1,6 @@
 :root {
 	--pink: #f14e95;
+	--matcha: #74A12E;
 	--bg: #0a0a0a;
 	--shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
@@ -7,7 +8,7 @@
 
 body {
 	font-size: 1.2rem;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Noto Serif', serif;
 	min-height: 3000px;
 }
 
@@ -42,38 +43,38 @@ body {
 }
 
 .hero h1 {
-	font-family: 'Lobster', cursive;
-	font-size: 3rem;
+	font-family: 'Great Vibes', cursive;
+	font-size: 5rem;
 	margin-top: 1rem;
 }
 
 .hero h4 {
-	font-size: 1.6rem;
+	font-size: 2rem;
 	margin-top: 50px;
 	margin-bottom: 2rem;
 }
 
 .hero p {
-	font-size: 1.4rem;
+	font-size: 2rem;
 }
 
 .hero a {
 	margin-top: 20px;
-	color: var(--pink);
+	color: var(--matcha);
 	background-color: white;
 /* untuk membuat shadow	*/
 	box-shadow: var(--shadow);
 }
 
 .hero a:hover {
-	background-color: var(--pink);
+	background-color: var(--matcha);
 	color: white;
 }
 
 
 .navbarku {
 	/* Diakhiri !important agar baris ini yang diutamakan untuk di pakai	*/
-	background-color: rgba(255, 255, 255, 0.2) !important;
+	background-color: rgba(255, 255, 255, 0.1) !important;
 /*	agar background ngeblur*/
 	backdrop-filter: blur(4px);
 }
@@ -86,8 +87,8 @@ body {
 
 .navbarku .navbar-brand, .mynavbar .offcanvas-title {
 
-	font-family: 'Sacramento', cursive;
-	font-size: 3.2rem;
+	font-family: 'Great Vibes', cursive;
+	font-size: 3rem;
 /*	font-weight: bold;*/
 }
 
@@ -100,6 +101,9 @@ body {
 	background-image: url(bginfo.png);
 	background-size: cover;
 	min-height: 100vh;
+	/*Agar bg foto responsif berada di tengah*/
+	background-size: cover;
+	background-position: center;
 /*	Mengatur foto agar naik ke atas agar navbar juga kena*/
 	margin-top: -6rem;
 	padding-top: 10rem;.
@@ -112,8 +116,8 @@ body {
 .gallery h2,
 .rsvp h2,
 .gifts h2 {
-	color: var(--pink);
-	font-family: 'Sacramento';
+	color: var(--matcha);
+	font-family: 'Dancing Script', cursive;
 	font-size: 2.5rem;
 	font-weight: bold;
 }
@@ -124,19 +128,19 @@ body {
 
 .home h3 {
 	color: #444;
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	margin-bottom: 1rem;
 }
 
 .home li {
 	background-color: transparent;
 	font-size: 1.6rem;
-	color: #666;
+	color: black;
 }
 
 .home p {
-	font-size: 1.6rem;
-	color: #666;
+	font-size: 1rem;
+	color: black;
 }
 
 .home .list-group {
@@ -145,14 +149,26 @@ body {
 }
 
 .home .couple {
-	margin-top: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 
 .home .couple h3 {
-	font-family: 'Lobster';
-	font-size: 2rem;
-	color: var(--pink);
+	font-family: 'Great Vibes', cursive;
+	font-size: 3rem;
+	color: var(--matcha);
+}
+
+.home .couplebwh,
+.home .coupleats {
+	font-family: 'Noto Serif', serif;
+	font-weight: bold;
+	margin-bottom: 3rem;
+}
+
+.home .keluarga h3 {
+	font-family: 'Dancing Script', cursive;
 }
 
 
@@ -167,16 +183,6 @@ body {
 	padding-top: 10rem;
 	padding-bottom: 8rem;
 }
-
-
-/*karena sama dengan .home h2 maka .info h2 digabung disana*/
-/*.info h2 {
-	color: var(--pink);
-	font-family: 'Sacramento';
-	font-size: 5rem;
-	font-weight: bold;
-}
-*/
 
 .info .alamat {
 	font-size: 1.6rem;

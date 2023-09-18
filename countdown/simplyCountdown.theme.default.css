@@ -14,7 +14,7 @@
 	justify-content: center;
 	float: left;
 	margin: 10px;
-	background: var(--pink);
+	background: var(--matcha);
 	box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
 	border-radius: 50%;
 }
@@ -23,6 +23,7 @@
 .simply-countdown > .simply-section .simply-word {
 	display: block;
 	text-align: center;
+	text-shadow: var(--shadow);
 }
 
 
