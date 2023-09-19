@@ -171,13 +171,26 @@ body {
 	font-weight: bold;
 }
 
+.home .coupleats {
+	margin-bottom: 20px;
+}
+
 .home .couplebwh {
-	margin-bottom: 3rem;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.home .dengan h3 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 5rem;
 }
 
 .home .keluarga h3 {
 	font-family: 'Dancing Script', cursive;
 }
+
+
 
 
 /*.home .couple img {
