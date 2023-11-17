@@ -10,36 +10,47 @@ walaupun sebenarnya saya masih kesulitan untuk menggunakan Tailwind CSS ini kare
 ## Fitur & Penggunaan
 Ini ceritanya Portofolio Mahasiswa, dapat digunakan untuk berbagai keperluan seperti melamar kerja magang, beasiswa, atau bisa juga sebagai personal branding. Web Portofolio ini sudah mendukung tampilan responsif, menyesuaikan ukuran layar yang digunakan oleh pengunjung.
 
-### Menu Header
+## Menu Header
     * berisi tag anchor yang mengarah ke setiap section ketika salah satu menu di klik.
     * pada tampilan mobile akan membentuk hamburger line yang dapat diklik.
     * terdapat pula toggle untuk berganti mode gelap dan terang.
 
 
-### Hero Section
+## Hero Section
     Berisi text selamat datang dan foto pemilik portofolio.
 
-### About
+## About
     Berisi informasi pribadi dan social media
 
-### Portfolio
+## Portfolio
     Berisi kumpulan hasil perbuatan pemilik portofolio.
 
-### Client
+## Client
     Berisi kerjasama yang pernah di lakukan pemilik portofolio.
 
-### Blog
+## Blog
     Berisi tulisan yang pernah dibuat pemilik portofolio. saat ini saya belum ada blog yang bisa di tampilkan, jadi maafin ya.
 
-### Kontak
+## Kontak
     Form yang bisa ketika pengguna mengisi dan submit akan dikirim ke google spreadsheet yang sudah saya buat
 
-### Footer
+## Footer
     Masih belum 100% berfungsi karena link nya belum diisi
     * Kategori tulisan belum di fungsikan karena memang belum ada
     * Tautan berisi sama seperti menu header
     * Social Media
     * Tombol kembali ke atas
+
+## Tujuan
+    Portofolio Mahasiswa Berbasis Web ini saya buat dengan tujuan untuk mengumpulkan dan menampilkan berbagai hasil karya mahasiswa yang mudah di akses.
+
+## Manfaat
+    => Dokumentasi kemajuan akademis mahasiswa dari waktu ke waktu.
+    => Untuk menunjukan sudah seberapa jauh kemampuan seorang individu.
+    => Untuk menarik client, perusahaan dll. (Biasanya saat magang).
+    => Untuk mengasah kemampuan menulis.
+    => Meningkatkan persentase diterima saat melamar kerja/magang.
+    => dan masih banyak lagi.
 
 
 Begitu kira-kira kurang lebihnya mohon maaf
