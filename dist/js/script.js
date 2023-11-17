@@ -53,4 +53,4 @@ if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.match
     darkToggle.checked = true;
 } else {
     darkToggle.checked = false;
-}
+};
